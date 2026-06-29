@@ -1,4 +1,4 @@
-def call(String Project, String ImageTag, String Dockerbubuser){
+def call(String Project, String ImageTag, String dockerbubuser){
   echo "pushing the image"
                withCredentials([usernamePassword(
                     credentialsId:"Docker-Cred",
